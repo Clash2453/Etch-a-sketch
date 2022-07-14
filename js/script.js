@@ -7,7 +7,7 @@ picker.addEventListener('input', function(){
     color =  this.value;
 });
 
-function clearCanvas(e){
+function clearCanvas(){
     while(canvas.firstChild){
         canvas.removeChild(canvas.firstChild)
     }
